@@ -1,6 +1,6 @@
 export const generateWhatsAppLink = (productName, quantity = 1) => {
   // Ganti dengan nomor WA penjual yang sebenarnya (gunakan format 62...)
-  const phoneNumber = "6281231765812"; 
+  const phoneNumber = "6282245521084";
   
   const text = `Halo Admin ARRUM Buah & Rempah, saya ingin memesan:
 - Produk: ${productName}
@@ -13,7 +13,7 @@ Apakah stok masih tersedia dan bisa dikirim ke alamat saya di Malang?`;
 };
 
 export const generateCartWhatsAppLink = (cartItems, totalEstimate) => {
-  const phoneNumber = "6281231765812";
+  const phoneNumber = "6282245521084";
   
   let text = `Halo Admin ARRUM Buah & Rempah, saya ingin memesan:\n\n`;
   
