@@ -108,3 +108,52 @@
 .out-of-stock .price {
   color: var(--color-text-muted);
 }
+
+.variants-container {
+  margin-bottom: 1.25rem;
+}
+
+.variant-label {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.variant-chips {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.variant-chip {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.variant-chip:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.variant-chip.active {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.btn-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

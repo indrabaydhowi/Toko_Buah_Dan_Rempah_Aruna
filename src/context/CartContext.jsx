@@ -30,7 +30,7 @@ export const CartProvider = ({ children }) => {
       }
       return [...prev, { ...product, quantity }];
     });
-    setIsCartOpen(true); // Auto-open cart when adding
+    // Removed auto-open cart behavior to support floating cart bar
   };
 
   const updateQuantity = (productId, newQuantity) => {

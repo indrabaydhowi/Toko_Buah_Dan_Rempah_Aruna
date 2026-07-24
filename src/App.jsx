@@ -5,6 +5,7 @@ import ProductCatalog from './components/ProductCatalog'
 import ShippingInfo from './components/ShippingInfo'
 import Footer from './components/Footer'
 import CartSidebar from './components/CartSidebar'
+import FloatingCartBar from './components/FloatingCartBar'
 import { CartProvider } from './context/CartContext'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       </main>
       <Footer />
       <CartSidebar />
+      <FloatingCartBar />
     </CartProvider>
   )
 }
