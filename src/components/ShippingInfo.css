@@ -1,0 +1,59 @@
+.shipping-section {
+  background-color: white;
+  border-top: 1px solid var(--color-border);
+}
+
+.shipping-header {
+  margin-bottom: 3rem;
+}
+
+.shipping-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.shipping-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.shipping-card {
+  background: var(--color-bg);
+  padding: 2rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+  border: 1px solid var(--color-border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shipping-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.shipping-card .icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.shipping-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+}
+
+.shipping-card p {
+  color: var(--color-text);
+  font-size: 0.95rem;
+}
+
+.shipping-card ul {
+  text-align: left;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  color: var(--color-text);
+  font-size: 0.95rem;
+}

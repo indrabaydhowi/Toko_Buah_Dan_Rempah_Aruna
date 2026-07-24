@@ -1,0 +1,122 @@
+[
+  {
+    "id": "p1",
+    "name": "Apel Fuji Super",
+    "category": "Buah",
+    "price": 45000,
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6fac6?w=500&q=80",
+    "description": "Apel Fuji pilihan dengan rasa manis, renyah, dan segar.",
+    "stockStatus": "Tersedia"
+  },
+  {
+    "id": "p2",
+    "name": "Jeruk Medan Manis",
+    "category": "Buah",
+    "price": 30000,
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?w=500&q=80",
+    "description": "Jeruk lokal pilihan, kaya vitamin C dan sangat manis.",
+    "stockStatus": "Tersedia"
+  },
+  {
+    "id": "p3",
+    "name": "Jahe Merah Segar",
+    "category": "Rempah",
+    "price": 25000,
+    "unit": "500gr",
+    "image": "https://images.unsplash.com/photo-1621317765171-8bc685f67b5e?w=500&q=80",
+    "description": "Jahe merah kualitas unggul, cocok untuk minuman kesehatan.",
+    "stockStatus": "Tersedia"
+  },
+  {
+    "id": "p4",
+    "name": "Kunyit Putih",
+    "category": "Rempah",
+    "price": 15000,
+    "unit": "250gr",
+    "image": "https://images.unsplash.com/photo-1615486171439-b9d997ccbafc?w=500&q=80",
+    "description": "Kunyit bersih siap pakai untuk berbagai bumbu masakan.",
+    "stockStatus": "Habis"
+  },
+  {
+    "id": "p5",
+    "name": "Paket Rempah Dapur",
+    "category": "Paket",
+    "price": 50000,
+    "unit": "paket",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=500&q=80",
+    "description": "Kombinasi bumbu lengkap (jahe, kunyit, laos, serai) untuk kebutuhan mingguan.",
+    "stockStatus": "Tersedia"
+  },
+  {
+    "id": "p6",
+    "name": "Pisang Cavendish",
+    "category": "Buah",
+    "price": 22000,
+    "unit": "sisir",
+    "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=500&q=80",
+    "description": "Pisang manis dan mulus, pas untuk camilan sehat setiap hari.",
+    "stockStatus": "Tersedia"
+  },
+  {
+    "id": "p7",
+    "name": "Bawang Merah Brebes",
+    "category": "Bumbu",
+    "price": 35000,
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?w=500&q=80",
+    "description": "Bawang merah pilihan dengan kualitas terbaik, cocok untuk dasar bumbu masakan.",
+    "stockStatus": "Tersedia"
+  },
+  {
+    "id": "p8",
+    "name": "Bayam Hijau Segar",
+    "category": "Sayur",
+    "price": 5000,
+    "unit": "ikat",
+    "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=500&q=80",
+    "description": "Bayam hidroponik segar, langsung dipanen dari kebun pagi ini.",
+    "stockStatus": "Tersedia"
+  },
+  {
+    "id": "p9",
+    "name": "Daging Sapi Has Dalam",
+    "category": "Daging",
+    "price": 145000,
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1603048297172-c92544798d5e?w=500&q=80",
+    "description": "Daging sapi tenderloin super empuk, sangat cocok untuk steak atau rendang.",
+    "stockStatus": "Tersedia"
+  },
+  {
+    "id": "p10",
+    "name": "Ikan Salmon Fillet",
+    "category": "Ikan",
+    "price": 85000,
+    "unit": "250gr",
+    "image": "https://images.unsplash.com/photo-1574781330855-d0db8cc6a79c?w=500&q=80",
+    "description": "Potongan fillet salmon segar yang kaya omega-3.",
+    "stockStatus": "Habis"
+  },
+  {
+    "id": "p11",
+    "name": "Wortel Brastagi",
+    "category": "Sayur",
+    "price": 12000,
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=500&q=80",
+    "description": "Wortel manis dan renyah ukuran sedang-besar.",
+    "stockStatus": "Tersedia"
+  },
+  {
+    "id": "p12",
+    "name": "Garam Laut Kusamba",
+    "category": "Bumbu",
+    "price": 18000,
+    "unit": "pack",
+    "image": "https://images.unsplash.com/photo-1518110925567-33157e3f2832?w=500&q=80",
+    "description": "Garam laut murni tradisional yang kaya mineral.",
+    "stockStatus": "Tersedia"
+  }
+]
