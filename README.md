@@ -1,16 +1,29 @@
-# React + Vite
+# Toko Buah Dan Rempah Aruna 🍎🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-Currently, two official plugins are available:
+> Aplikasi e-commerce katalog modern yang menyajikan antarmuka responsif dan performa tinggi untuk produk buah-buahan segar dan rempah nusantara.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Live Demo
+[Tautan Live Demo Belum Tersedia - Akan Diperbarui]
 
-## React Compiler
+## 🎯 Latar Belakang Proyek
+Proyek ini dibangun sebagai portofolio untuk mendemonstrasikan implementasi *Clean Architecture* pada React, pengelolaan *state*, dan desain *Mobile-First*. Aplikasi ini dirancang agar pengguna dapat mencari, melihat detail, dan melakukan pemesanan produk dengan alur yang mulus.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Fitur Utama
+* **Katalog Produk Cepat:** Render data secara instan memanfaatkan ekosistem Vite.
+* **UI/UX Responsif:** Tampilan yang dioptimalkan untuk perangkat seluler maupun desktop.
+* **Struktur Kode Terukur:** Implementasi pemisahan komponen (*separation of concerns*) yang memudahkan skalabilitas (*maintenance*).
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📂 Arsitektur Direktori
+```text
+src/
+ ├── assets/      # File gambar statis dan ikon
+ ├── components/  # Komponen UI yang dapat digunakan kembali (Navbar, Footer, Card)
+ ├── pages/       # Tampilan halaman utama
+ ├── utils/       # Fungsi helper
+ └── App.jsx      # Entry point komponen
+```
