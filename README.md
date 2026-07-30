@@ -18,6 +18,14 @@ Proyek ini dibangun sebagai portofolio untuk mendemonstrasikan implementasi *Cle
 * **UI/UX Responsif:** Tampilan yang dioptimalkan untuk perangkat seluler maupun desktop.
 * **Struktur Kode Terukur:** Implementasi pemisahan komponen (*separation of concerns*) yang memudahkan skalabilitas (*maintenance*).
 
+## 🛠️ Teknologi & Tools
+* **Core:** React.js
+* **Build Tool:** Vite
+* **Styling:** Vanilla CSS
+* **Linting:** Oxlint
+* **Deployment:** Netlify
+* **Lainnya:** React Context API (State Management)
+
 ## 📂 Arsitektur Direktori
 ```text
 src/
